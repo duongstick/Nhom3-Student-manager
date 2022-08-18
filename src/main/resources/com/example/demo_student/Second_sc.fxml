@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="416.0" prefWidth="754.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo_student.SecondSc">
+   <children>
+      <ImageView fitHeight="449.0" fitWidth="754.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/bg6.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="name" layoutX="253.0" layoutY="223.0" prefHeight="128.0" prefWidth="377.0" textAlignment="CENTER" textFill="#e8dfe0">
+         <font>
+            <Font name="Consolas Italic" size="28.0" />
+         </font></Label>
+      <ImageView fx:id="img1" fitHeight="101.0" fitWidth="116.0" layoutX="28.0" layoutY="45.0" onMouseEntered="#name1" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/p1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img2" fitHeight="109.0" fitWidth="100.0" layoutX="179.0" layoutY="53.0" onMouseEntered="#name2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/p2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img3" fitHeight="101.0" fitWidth="91.0" layoutX="316.0" layoutY="57.0" onMouseEntered="#name3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/p3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img4" fitHeight="110.0" fitWidth="100.0" layoutX="486.0" layoutY="57.0" onMouseEntered="#name4" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/p4.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img5" fitHeight="110.0" fitWidth="64.0" layoutX="652.0" layoutY="53.0" onMouseEntered="#name5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/p5.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
