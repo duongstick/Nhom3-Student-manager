@@ -8,6 +8,8 @@
 + Thêm sinh viên
 + Sửa sinh viên
 + Xoá sinh viên
++ Hiển thị danh sách sinh viên
++ Sắp xếp sinh viên
 + Đăng nhập
 ```
 
@@ -22,4 +24,5 @@
 
 ```
 + https://drive.google.com/file/d/1lAcPZpXoHr-XuE3F6zL70UYr3zefgFYU/view
++ Recomment down xuống rồi mới xem
 ```
